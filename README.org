@@ -1,0 +1,12 @@
+#+TITLE: nix-service-monorepo
+
+Service monorepo managed with Nix (Playground)
+
+* Research
+** Nix
+- [[https://github.com/styx-static/styx/tree/master/tests][styx/tests at master · styx-static/styx · GitHub]]
+- [[https://github.com/dhall-lang/dhall-haskell/tree/master/dhall-nix][dhall-haskell/dhall-nix at master · dhall-lang/dhall-haskell · GitHub]]
+** Terraform
+- [[https://medium.com/@anton.babenko/make-terraform-faster-skip-unnecessary-checks-aws-and-s3-3ab00df9c3a9][Make Terraform faster — skip unnecessary checks (AWS and S3) | by Anton Baben...]]
+- [[https://coderbook.com/@marcus/prevent-terraform-from-recreating-or-deleting-resource/][Prevent Terraform from Recreating or Deleting Resource · Coderbook]]
+** GitHub Actions

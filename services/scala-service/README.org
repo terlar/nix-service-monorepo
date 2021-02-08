@@ -1,0 +1,6 @@
+#+TITLE: Scala Service
+
+* Research
+- [[https://github.com/gvolpe/sbt-nix.g8][GitHub - gvolpe/sbt-nix.g8: Get started with Nix in Scala]]
+- [[https://github.com/zaninime/sbt-derivation][GitHub - zaninime/sbt-derivation: mkDerivation for sbt, similar to buildGoModule]]
+- [[https://gitlab.com/teozkr/Sbtix][Projects · Teo Klestrup Röijezon / Sbtix · GitLab]]

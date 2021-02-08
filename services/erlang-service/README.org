@@ -1,0 +1,5 @@
+#+TITLE: Erlang Service
+
+* Research
+- [[https://github.com/ankhers/rebar32nix][GitHub - ankhers/rebar32nix]]
+- [[https://github.com/erlang-ls/erlang_ls][GitHub - erlang-ls/erlang_ls: The Erlang Language Server]]

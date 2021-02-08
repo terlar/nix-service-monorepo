@@ -1,0 +1,6 @@
+#+TITLE: Golang Service
+
+* Research
+- [[https://www.serverless.com/blog/framework-example-golang-lambda-support][Serverless Framework example for Golang and Lambda]]
+- [[https://github.com/MatrixAI/Golang-Demo][GitHub - MatrixAI/Golang-Demo: Golang Demo Project]]
+- [[https://github.com/nix-community/vgo2nix][GitHub - nix-community/vgo2nix: Convert go.mod files to nixpkgs buildGoPackag...]]

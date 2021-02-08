@@ -1,0 +1,5 @@
+#+TITLE: Python service
+* Research
+** Tools
+- [[https://github.com/nix-community/poetry2nix][GitHub - nix-community/poetry2nix: Convert poetry projects to nix automagical...]]
+- [[https://pypi.org/project/python-language-server/][python-language-server · PyPI]]
