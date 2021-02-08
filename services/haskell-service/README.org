@@ -1,0 +1,6 @@
+#+TITLE: Haskell service
+* Research
+** Tools
+- [[https://github.com/kowainik/stan][GitHub - kowainik/stan: 🕵️ Haskell STatic ANalyser]]
+- [[https://github.com/haskell/haskell-language-server][GitHub - haskell/haskell-language-server: Integration point for ghcide and ha...]]
+- [[https://github.com/jyp/dante][GitHub - jyp/dante]]

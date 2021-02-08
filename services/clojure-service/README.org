@@ -1,0 +1,4 @@
+#+TITLE: Clojure Service
+
+* Research
+- [[https://github.com/hlolli/clj2nix][GitHub - hlolli/clj2nix: Convert deps.edn to a nix expression]]

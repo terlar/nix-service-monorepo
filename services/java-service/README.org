@@ -1,0 +1,5 @@
+#+TITLE: Java Service
+
+* Research
+- [[https://github.com/fzakaria/mvn2nix][GitHub - fzakaria/mvn2nix: Easily package your Maven Java application with th...]]
+- [[https://github.com/tadfisher/gradle2nix][GitHub - tadfisher/gradle2nix: Create Nix configurations suitable for reprodu...]]

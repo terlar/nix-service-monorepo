@@ -1,0 +1,33 @@
+#+TITLE: nix-service-monorepo
+
+Service monorepo managed with Nix (Playground)
+
+* Research
+** Nix
+- [[https://github.com/styx-static/styx/tree/master/tests][styx/tests at master · styx-static/styx · GitHub]]
+- [[https://github.com/dhall-lang/dhall-haskell/tree/master/dhall-nix][dhall-haskell/dhall-nix at master · dhall-lang/dhall-haskell · GitHub]]
+** Terraform
+- [[https://medium.com/@anton.babenko/make-terraform-faster-skip-unnecessary-checks-aws-and-s3-3ab00df9c3a9][Make Terraform faster — skip unnecessary checks (AWS and S3) | by Anton Baben...]]
+- [[https://coderbook.com/@marcus/prevent-terraform-from-recreating-or-deleting-resource/][Prevent Terraform from Recreating or Deleting Resource · Coderbook]]
+- [[https://www.hibri.net/2017/11/13/terraform-for-grownups/][Terraform for grownups - A model for scaling Terraform workflow in a large or...]]
+- [[https://www.terraform.io/docs/cloud/guides/recommended-practices/index.html][Index - Terraform Recommended Practices - Terraform by HashiCorp]]
+** OpenAPI
+- [[https://swagger.io/specification/][OpenAPI Specification - Version 3.0.3 | Swagger]]
+** GitHub Actions
+** Methodology
+- [[https://12factor.net/][The Twelve-Factor App]]
+
+* Guidelines
+** Derivations
+- Keep small and isolated
+** Components
+- A small isolated "deployable" unit (a datastore, a delivery mechanism, an API GW, a set
+  of lambda functions)
+- Self-contained
+- Loose connection to other dependencies (components)
+- 12 factor app
+** Services
+- Built up from several different components.
+
+* DSL
+Nix module system to easier extend parts
