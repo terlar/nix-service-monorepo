@@ -15,3 +15,8 @@
 - [[https://github.com/getndazn/dazn-lambda-powertools][GitHub - getndazn/dazn-lambda-powertools: Powertools (logger, HTTP client, AW...]]
 - [[https://github.com/parcel-bundler/parcel][GitHub - parcel-bundler/parcel: 📦🚀 Blazing fast, zero configuration web appli...]]
 - [[https://github.com/webpack/webpack/][GitHub - webpack/webpack: A bundler for javascript and friends. Packs many mo...]]
+- [[https://dev.to/elthrasher/managing-multiple-functions-with-aws-sam-and-webpack-1581][Managing Multiple Functions with AWS SAM and Webpack - DEV Community]]
+- [[https://dev.to/terrierscript/build-aws-lambda-function-with-typescript-only-use-parcel-bundler-426a][Build AWS Lambda function with typescript only use parcel-bundler - DEV Commu...]]
+- [[https://www.serverless.com/plugins/serverless-webpack][Serverless Framework: Plugins Webpack]]
+- [[https://swc.rs][Rust-based platform for the Web – SWC]]
+- [[https://www.serverless.com/plugins/serverless-plugin-parcel][Serverless Framework: Plugins Parcel]]
