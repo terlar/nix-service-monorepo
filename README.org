@@ -6,11 +6,17 @@ Service monorepo managed with Nix (Playground)
 ** Nix
 - [[https://github.com/styx-static/styx/tree/master/tests][styx/tests at master · styx-static/styx · GitHub]]
 - [[https://github.com/dhall-lang/dhall-haskell/tree/master/dhall-nix][dhall-haskell/dhall-nix at master · dhall-lang/dhall-haskell · GitHub]]
+- [[https://github.com/numtide/devshell][GitHub - numtide/devshell: Per project developer environments]]
 ** Terraform
 - [[https://medium.com/@anton.babenko/make-terraform-faster-skip-unnecessary-checks-aws-and-s3-3ab00df9c3a9][Make Terraform faster — skip unnecessary checks (AWS and S3) | by Anton Baben...]]
 - [[https://coderbook.com/@marcus/prevent-terraform-from-recreating-or-deleting-resource/][Prevent Terraform from Recreating or Deleting Resource · Coderbook]]
 - [[https://www.hibri.net/2017/11/13/terraform-for-grownups/][Terraform for grownups - A model for scaling Terraform workflow in a large or...]]
 - [[https://www.terraform.io/docs/cloud/guides/recommended-practices/index.html][Index - Terraform Recommended Practices - Terraform by HashiCorp]]
+- [[https://github.com/terraform-aws-modules][Terraform AWS modules · GitHub]]
+- [[https://docs.spacelift.io/][Hello, Spacelift! - Spacelift]]
+** Testing
+- [[https://github.com/Orange-OpenSource/hurl][GitHub - Orange-OpenSource/hurl: Hurl, run and test HTTP requests.]]
+- [[https://en.wikipedia.org/wiki/Software_testing][Software testing - Wikipedia]]
 ** OpenAPI
 - [[https://swagger.io/specification/][OpenAPI Specification - Version 3.0.3 | Swagger]]
 ** GitHub Actions
@@ -31,3 +37,25 @@ Service monorepo managed with Nix (Playground)
 
 * DSL
 Nix module system to easier extend parts
+
+* Topology
+- Cell :: A group of related services in a specific region/stage.
+- Service :: A service provides a solution for a particular need. The service itself is
+  mostly a concept and is the sum of its components. Interaction with the service is done
+  via one of its components.
+- Component :: A small isolated part of a service. It could be some infrastructure serving
+  a specific purpose or an application. This is in order to limit the scope of deployments
+  and support incremental updates without big risk/impact, multiple components work
+  together. Support of minimal branch deployments. Not deploying all the infrastructure,
+  but only the pieces a developer touches.
+
+  For example:
+  - A data store for an entity
+  - An HTTP API for an entity
+  - An event-mechanism or message delivery
+
+  A component includes configuration for which regions/stages are supported.
+- Stack :: Deployment of a component to a specific region and stage (eu-west-1 production)
+- Command :: A command to be executed on a stack
+  - plan
+  - deploy
