@@ -7,6 +7,8 @@ Service monorepo managed with Nix (Playground)
 - [[https://github.com/styx-static/styx/tree/master/tests][styx/tests at master · styx-static/styx · GitHub]]
 - [[https://github.com/dhall-lang/dhall-haskell/tree/master/dhall-nix][dhall-haskell/dhall-nix at master · dhall-lang/dhall-haskell · GitHub]]
 - [[https://github.com/numtide/devshell][GitHub - numtide/devshell: Per project developer environments]]
+- [[https://github.com/nix-community/nixago][GitHub - nix-community/nixago: Generate configuration files using Nix {mainta...]]
+- [[https://github.com/nix-community/nixpkgs-terraform-providers-bin][GitHub - nix-community/nixpkgs-terraform-providers-bin: auto-updating terrafo...]]
 ** Terraform
 - [[https://medium.com/@anton.babenko/make-terraform-faster-skip-unnecessary-checks-aws-and-s3-3ab00df9c3a9][Make Terraform faster — skip unnecessary checks (AWS and S3) | by Anton Baben...]]
 - [[https://coderbook.com/@marcus/prevent-terraform-from-recreating-or-deleting-resource/][Prevent Terraform from Recreating or Deleting Resource · Coderbook]]
@@ -17,6 +19,7 @@ Service monorepo managed with Nix (Playground)
 ** Testing
 - [[https://github.com/Orange-OpenSource/hurl][GitHub - Orange-OpenSource/hurl: Hurl, run and test HTTP requests.]]
 - [[https://en.wikipedia.org/wiki/Software_testing][Software testing - Wikipedia]]
+- [[https://github.com/Qovery/replibyte][GitHub - Qovery/replibyte: Seed your development database with real data ⚡️]]
 ** OpenAPI
 - [[https://swagger.io/specification/][OpenAPI Specification - Version 3.0.3 | Swagger]]
 ** GitHub Actions

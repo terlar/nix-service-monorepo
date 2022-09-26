@@ -3,3 +3,10 @@
 ** Tools
 - [[https://github.com/nix-community/poetry2nix][GitHub - nix-community/poetry2nix: Convert poetry projects to nix automagical...]]
 - [[https://pypi.org/project/python-language-server/][python-language-server · PyPI]]
+- [[https://awslabs.github.io/aws-lambda-powertools-python/latest/][Homepage - Lambda Powertools Python]]
+- [[https://github.com/charliermarsh/ruff][GitHub - charliermarsh/ruff: An extremely fast Python linter, written in Rust.]]
+- [[https://typer.tiangolo.com][Typer]]
+- [[https://github.com/jazzband][Jazzband · GitHub]]
+- [[https://github.com/Delgan/loguru][GitHub - Delgan/loguru: Python logging made (stupidly) simple]]
+- [[https://github.com/tiangolo/fastapi][GitHub - tiangolo/fastapi: FastAPI framework, high performance, easy to learn...]]
+- [[https://github.com/HypothesisWorks/hypothesis/tree/master/hypothesis-python][hypothesis/hypothesis-python at master · HypothesisWorks/hypothesis · GitHub]]
