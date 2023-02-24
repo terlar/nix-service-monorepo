@@ -5,3 +5,4 @@
 - [[https://github.com/kolloch/crate2nix][GitHub - kolloch/crate2nix: nix build file generator for rust crates]]
 - [[https://github.com/figsoda/fenix][GitHub - figsoda/fenix: Rust nightly toolchains and rust analyzer nightly for...]]
 - [[https://github.com/ipetkov/crane][GitHub - ipetkov/crane: A Nix library for building cargo projects. Never buil...]]
+- [[https://github.com/oxalica/nocargo][GitHub - oxalica/nocargo: {alpha} Build Rust crates with Nix Build System.]]

@@ -3,14 +3,6 @@
 - Share deps for all lambdas?
 - Use webpack/parcel to package the lambda with only needed deps
 * Research
-- [[https://github.com/serokell/nix-npm-buildpackage][GitHub - serokell/nix-npm-buildpackage: Build nix packages that use npm/yarn]]
-- [[https://github.com/tweag/npmlock2nix][GitHub - tweag/npmlock2nix]]
-- [[https://github.com/nmattia/napalm][GitHub - nmattia/napalm: Support for building npm packages in Nix and lightwe...]]
-- [[https://github.com/svanderburg/node2nix][GitHub - svanderburg/node2nix: Generate Nix expressions to build NPM packages]]
-- [[https://github.com/nix-community/yarn2nix][GitHub - nix-community/yarn2nix: Generate nix expressions from a yarn.lock fi...]]
-- [[https://github.com/adnelson/nixfromnpm][GitHub - adnelson/nixfromnpm: Convert NPM packages into nix expressions]]
-- [[https://github.com/VanCoding/node_modules.nix][GitHub - VanCoding/node_modules.nix: A nix library to turn your package-lock....]]
-- [[https://github.com/Profpatsch/yarn2nix][GitHub - Profpatsch/yarn2nix: Build and deploy node packages with nix from ya...]]
 - [[https://github.com/theburningmonk/event-sourcing-demo][GitHub - theburningmonk/event-sourcing-demo: Demo app to illustrate how you c...]]
 - [[https://github.com/getndazn/dazn-lambda-powertools][GitHub - getndazn/dazn-lambda-powertools: Powertools (logger, HTTP client, AW...]]
 - [[https://github.com/parcel-bundler/parcel][GitHub - parcel-bundler/parcel: 📦🚀 Blazing fast, zero configuration web appli...]]
@@ -27,4 +19,27 @@
 - [[https://awslabs.github.io/aws-lambda-powertools-typescript/latest/][Homepage - AWS Lambda Powertools for TypeScript]]
 - [[https://middy.js.org][Middy, the stylish Node.js middleware engine for AWS Lambda]]
 - [[https://github.com/oven-sh/bun][GitHub - oven-sh/bun: Incredibly fast JavaScript runtime, bundler, transpiler...]]
+- [[https://github.com/dudykr/stc][GitHub - dudykr/stc: Speedy TypeScript type checker]]
+  
+** API
+**** OpenAPI
+- [[https://github.com/acacode/swagger-typescript-api][GitHub - acacode/swagger-typescript-api: TypeScript API generator via Swagger...]]
+- [[https://github.com/devexperts/swagger-codegen-ts][GitHub - devexperts/swagger-codegen-ts: Typesafe Swagger API generator for Ty...]]
+
+** Testing
 - [[https://github.com/dubzzz/fast-check][GitHub - dubzzz/fast-check: Property based testing framework for JavaScript (...]]
+- [[https://github.com/stryker-mutator/stryker-js][GitHub - stryker-mutator/stryker-js: Mutation testing for JavaScript and friends]]
+
+** Libraries
+- [[https://github.com/unadlib/mutative][GitHub - unadlib/mutative: Efficient immutable updates, 10x faster than Immer...]]
+
+** Nix
+- [[https://github.com/aakropotkin/floco][GitHub - aakropotkin/floco: Using Nix to put NPM and Yarn in a coffin]]
+- [[https://github.com/serokell/nix-npm-buildpackage][GitHub - serokell/nix-npm-buildpackage: Build nix packages that use npm/yarn]]
+- [[https://github.com/tweag/npmlock2nix][GitHub - tweag/npmlock2nix]]
+- [[https://github.com/nmattia/napalm][GitHub - nmattia/napalm: Support for building npm packages in Nix and lightwe...]]
+- [[https://github.com/svanderburg/node2nix][GitHub - svanderburg/node2nix: Generate Nix expressions to build NPM packages]]
+- [[https://github.com/nix-community/yarn2nix][GitHub - nix-community/yarn2nix: Generate nix expressions from a yarn.lock fi...]]
+- [[https://github.com/adnelson/nixfromnpm][GitHub - adnelson/nixfromnpm: Convert NPM packages into nix expressions]]
+- [[https://github.com/VanCoding/node_modules.nix][GitHub - VanCoding/node_modules.nix: A nix library to turn your package-lock....]]
+- [[https://github.com/Profpatsch/yarn2nix][GitHub - Profpatsch/yarn2nix: Build and deploy node packages with nix from ya...]]

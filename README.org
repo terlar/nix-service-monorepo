@@ -9,6 +9,8 @@ Service monorepo managed with Nix (Playground)
 - [[https://github.com/numtide/devshell][GitHub - numtide/devshell: Per project developer environments]]
 - [[https://github.com/nix-community/nixago][GitHub - nix-community/nixago: Generate configuration files using Nix {mainta...]]
 - [[https://github.com/nix-community/nixpkgs-terraform-providers-bin][GitHub - nix-community/nixpkgs-terraform-providers-bin: auto-updating terrafo...]]
+- [[https://github.com/zhaofengli/attic][GitHub - zhaofengli/attic: Multi-tenant Nix Binary Cache]]
+- [[https://github.com/lf-/nix-otel][GitHub - lf-/nix-otel: Nix OpenTelemetry sender plugin]]
 ** Terraform
 - [[https://medium.com/@anton.babenko/make-terraform-faster-skip-unnecessary-checks-aws-and-s3-3ab00df9c3a9][Make Terraform faster — skip unnecessary checks (AWS and S3) | by Anton Baben...]]
 - [[https://coderbook.com/@marcus/prevent-terraform-from-recreating-or-deleting-resource/][Prevent Terraform from Recreating or Deleting Resource · Coderbook]]
@@ -16,6 +18,9 @@ Service monorepo managed with Nix (Playground)
 - [[https://www.terraform.io/docs/cloud/guides/recommended-practices/index.html][Index - Terraform Recommended Practices - Terraform by HashiCorp]]
 - [[https://github.com/terraform-aws-modules][Terraform AWS modules · GitHub]]
 - [[https://docs.spacelift.io/][Hello, Spacelift! - Spacelift]]
+- [[https://terraform-docs.io/][terraform-docs]]
+- [[https://www.logicloud.tech/articles/terraform/aws-lambda]]
+- [[https://github.com/Mastercard/terraform-provider-restapi][GitHub - Mastercard/terraform-provider-restapi: A terraform provider to manag...]]
 ** Testing
 - [[https://github.com/Orange-OpenSource/hurl][GitHub - Orange-OpenSource/hurl: Hurl, run and test HTTP requests.]]
 - [[https://en.wikipedia.org/wiki/Software_testing][Software testing - Wikipedia]]
@@ -25,6 +30,19 @@ Service monorepo managed with Nix (Playground)
 ** GitHub Actions
 ** Methodology
 - [[https://12factor.net/][The Twelve-Factor App]]
+** Development
+- [[https://github.com/siderolabs/conform][GitHub - siderolabs/conform: Policy enforcement for your pipelines.]]
+** VCS
+- [[https://github.com/conventional-changelog/commitlint/][GitHub - conventional-changelog/commitlint: 📓 Lint commit messages]]
+- [[https://github.com/conventional-changelog/conventional-changelog][GitHub - conventional-changelog/conventional-changelog: Generate changelogs a...]]
+- [[https://github.com/commitizen/cz-cli][GitHub - commitizen/cz-cli: The commitizen command line utility. #BlackLivesM...]]
+- [[https://github.com/semantic-release/semantic-release][GitHub - semantic-release/semantic-release: Fully automated version managemen...]]
+- [[https://github.com/choffmeister/git-describe-semver][GitHub - choffmeister/git-describe-semver]]
+- [[https://github.com/compilerla/conventional-pre-commit][GitHub - compilerla/conventional-pre-commit: A pre-commit hook that checks co...]]
+- [[https://github.com/cocogitto/cocogitto][GitHub - cocogitto/cocogitto: The Conventional Commits toolbox]]
+- [[https://github.com/convco/convco][GitHub - convco/convco: Conventional commits, changelog, versioning, validation]]
+** Monorepo
+- [[https://monorepo.tools/][Monorepo Explained]]
 
 * Guidelines
 ** Derivations
