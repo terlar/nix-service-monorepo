@@ -3,6 +3,8 @@
 Service monorepo managed with Nix (Playground)
 
 * Research
+** Application
+- [[https://github.com/gothinkster/realworld][GitHub - gothinkster/realworld: "The mother of all demo apps" — Exemplary ful...]]
 ** Nix
 - [[https://github.com/styx-static/styx/tree/master/tests][styx/tests at master · styx-static/styx · GitHub]]
 - [[https://github.com/dhall-lang/dhall-haskell/tree/master/dhall-nix][dhall-haskell/dhall-nix at master · dhall-lang/dhall-haskell · GitHub]]
@@ -60,6 +62,8 @@ Service monorepo managed with Nix (Playground)
 Nix module system to easier extend parts
 
 * Topology
+system and subsystem instead of service and component?
+
 - Cell :: A group of related services in a specific region/stage.
 - Service :: A service provides a solution for a particular need. The service itself is
   mostly a concept and is the sum of its components. Interaction with the service is done

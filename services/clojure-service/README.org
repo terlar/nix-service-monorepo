@@ -2,3 +2,6 @@
 
 * Research
 - [[https://github.com/hlolli/clj2nix][GitHub - hlolli/clj2nix: Convert deps.edn to a nix expression]]
+
+* Tools
+- [[https://github.com/babashka/neil][GitHub - babashka/neil: A CLI to add common aliases and features to deps.edn-...]]

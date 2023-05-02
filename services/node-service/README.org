@@ -4,34 +4,40 @@
 - Use webpack/parcel to package the lambda with only needed deps
 * Research
 - [[https://github.com/theburningmonk/event-sourcing-demo][GitHub - theburningmonk/event-sourcing-demo: Demo app to illustrate how you c...]]
-- [[https://github.com/getndazn/dazn-lambda-powertools][GitHub - getndazn/dazn-lambda-powertools: Powertools (logger, HTTP client, AW...]]
-- [[https://github.com/parcel-bundler/parcel][GitHub - parcel-bundler/parcel: 📦🚀 Blazing fast, zero configuration web appli...]]
-- [[https://github.com/webpack/webpack/][GitHub - webpack/webpack: A bundler for javascript and friends. Packs many mo...]]
-- [[https://dev.to/elthrasher/managing-multiple-functions-with-aws-sam-and-webpack-1581][Managing Multiple Functions with AWS SAM and Webpack - DEV Community]]
-- [[https://dev.to/terrierscript/build-aws-lambda-function-with-typescript-only-use-parcel-bundler-426a][Build AWS Lambda function with typescript only use parcel-bundler - DEV Commu...]]
-- [[https://www.serverless.com/plugins/serverless-webpack][Serverless Framework: Plugins Webpack]]
-- [[https://swc.rs][Rust-based platform for the Web – SWC]]
-- [[https://www.serverless.com/plugins/serverless-plugin-parcel][Serverless Framework: Plugins Parcel]]
-- [[https://github.com/evanw/esbuild][GitHub - evanw/esbuild: An extremely fast JavaScript and CSS bundler and mini...]]
-- [[https://rome.tools][Rome Toolchain]]
-- [[https://github.com/grantila/suretype][GitHub - grantila/suretype: Typesafe JSON (Schema) validator]]
-- [[https://quicktype.io/typescript][JSON to TypeScript • quicktype]]
-- [[https://awslabs.github.io/aws-lambda-powertools-typescript/latest/][Homepage - AWS Lambda Powertools for TypeScript]]
-- [[https://middy.js.org][Middy, the stylish Node.js middleware engine for AWS Lambda]]
-- [[https://github.com/oven-sh/bun][GitHub - oven-sh/bun: Incredibly fast JavaScript runtime, bundler, transpiler...]]
-- [[https://github.com/dudykr/stc][GitHub - dudykr/stc: Speedy TypeScript type checker]]
   
 ** API
 **** OpenAPI
 - [[https://github.com/acacode/swagger-typescript-api][GitHub - acacode/swagger-typescript-api: TypeScript API generator via Swagger...]]
 - [[https://github.com/devexperts/swagger-codegen-ts][GitHub - devexperts/swagger-codegen-ts: Typesafe Swagger API generator for Ty...]]
 
+** Build
+- [[https://github.com/evanw/esbuild][GitHub - evanw/esbuild: An extremely fast JavaScript and CSS bundler and mini...]]
+- [[https://swc.rs][Rust-based platform for the Web – SWC]]
+- [[https://github.com/nrwl/nx][GitHub - nrwl/nx: Smart, Fast and Extensible Build System]]
+- [[https://github.com/oven-sh/bun][GitHub - oven-sh/bun: Incredibly fast JavaScript runtime, bundler, transpiler...]]
+- [[https://rome.tools][Rome Toolchain]]
+
+*** Packaging
+- [[https://github.com/parcel-bundler/parcel][GitHub - parcel-bundler/parcel: 📦🚀 Blazing fast, zero configuration web appli...]]
+- [[https://github.com/webpack/webpack/][GitHub - webpack/webpack: A bundler for javascript and friends. Packs many mo...]]
+- [[https://dev.to/elthrasher/managing-multiple-functions-with-aws-sam-and-webpack-1581][Managing Multiple Functions with AWS SAM and Webpack - DEV Community]]
+- [[https://dev.to/terrierscript/build-aws-lambda-function-with-typescript-only-use-parcel-bundler-426a][Build AWS Lambda function with typescript only use parcel-bundler - DEV Commu...]]
+- [[https://www.serverless.com/plugins/serverless-webpack][Serverless Framework: Plugins Webpack]]
+- [[https://www.serverless.com/plugins/serverless-plugin-parcel][Serverless Framework: Plugins Parcel]]
+
 ** Testing
 - [[https://github.com/dubzzz/fast-check][GitHub - dubzzz/fast-check: Property based testing framework for JavaScript (...]]
 - [[https://github.com/stryker-mutator/stryker-js][GitHub - stryker-mutator/stryker-js: Mutation testing for JavaScript and friends]]
+- [[https://github.com/dudykr/stc][GitHub - dudykr/stc: Speedy TypeScript type checker]]
 
 ** Libraries
 - [[https://github.com/unadlib/mutative][GitHub - unadlib/mutative: Efficient immutable updates, 10x faster than Immer...]]
+- [[https://middy.js.org][Middy, the stylish Node.js middleware engine for AWS Lambda]]
+- [[https://quicktype.io/typescript][JSON to TypeScript • quicktype]]
+- [[https://awslabs.github.io/aws-lambda-powertools-typescript/latest/][Homepage - AWS Lambda Powertools for TypeScript]]
+- [[https://github.com/grantila/suretype][GitHub - grantila/suretype: Typesafe JSON (Schema) validator]]
+- [[https://github.com/getndazn/dazn-lambda-powertools][GitHub - getndazn/dazn-lambda-powertools: Powertools (logger, HTTP client, AW...]]
+- [[https://github.com/colinhacks/zod][GitHub - colinhacks/zod: TypeScript-first schema validation with static type ...]]
 
 ** Nix
 - [[https://github.com/aakropotkin/floco][GitHub - aakropotkin/floco: Using Nix to put NPM and Yarn in a coffin]]
